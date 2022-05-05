@@ -1,0 +1,144 @@
+div,section, header, img, h1,h2,h3,p, main, footer {
+    border: 1px solid red;
+}
+
+.page {
+    min-width: 1280px;
+    background-color: #2A2C2F;
+}
+
+/*header*/
+
+.header {
+  max-width: 1184;
+  height: 52px;
+  padding: 28px 48px 56px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header__lang-menu {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.header__lang-link{
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+/*Lead*/
+
+.lead {
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.lead__title {
+  max-width: 720px;
+  min-height: 200px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.lead__subtitle {
+  max-width: 640px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.lead__images {
+  margin: 0;
+}
+.lead__image {
+  width: 100%;
+}
+
+.lead__caption {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/*intro*/
+
+.intro {
+  max-width: 984px;
+  padding: 92px 0 92px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.intro__title {
+  margin-bottom: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+
+.intro__text {
+  max-width: 690px;
+  margin:0 0 33px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #FFFFFF;
+}
+
+.intro__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+/*photo-grid*/
+
+.photo-grid {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding-bottom: 92px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+}
+
+.photo-grid__item {
+  width: 100%;
+}
