@@ -1,0 +1,23 @@
+.cover {
+  background-image: url(../../images/cover-trains.jpg);
+  max-width: 1184px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+  transition: opacity .3s ease-in-out;
+
+}
+
+.cover::before {
+  content: '';
+  width: 0;
+  height: 0;
+  margin-left: -1px;
+  padding-top: calc(740/1184 * 100%);
+  opacity: 0.8;
+}
+
