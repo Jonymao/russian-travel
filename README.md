@@ -14,8 +14,9 @@
 ## Планы по доработке
 * Оптимизировать адаптив.
 * Применить JavaScript.
+---
 
-* [Ссылка на проект в github](https://jonymao.github.io/russian-travel/)
+ [Ссылка на проект в github](https://jonymao.github.io/russian-travel/)
 
 
 
