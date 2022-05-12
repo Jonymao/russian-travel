@@ -6,6 +6,23 @@
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+
 }
 
+.cover__overlay:before {
+  content: '';
+  background-color: rgb(0, 0, 0);
+  opacity: .3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: opacity .3s ease-in-out;
+}
 
+.cover__overlay:hover:before {
+  opacity: 0.8;
+}
